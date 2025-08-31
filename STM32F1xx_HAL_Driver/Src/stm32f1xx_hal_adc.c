@@ -1866,7 +1866,7 @@ void HAL_ADC_IRQHandler(ADC_HandleTypeDef* hadc)
           SET_BIT(hadc->State, HAL_ADC_STATE_READY);
         }
       }
-asdas
+
       /* Conversion complete callback */ 
 #if (USE_HAL_ADC_REGISTER_CALLBACKS == 1)
       hadc->InjectedConvCpltCallback(hadc);
